@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Teste Json URL</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+
+<!--- Implementação de Json em html via URL  --->
+
+<h4>Comentários:</h4>
+
+<script>
+
+    var URL = "https://jsonplaceholder.typicode.com/albums";
+
+    $.getJSON(URL, function(data){
+        console.log(data);
+
+        for (i=0; i<10; i++){
+
+            document.getElementById("mensagem").innerHTML+= "<li> Id do utilizador: "+ data[i].id+ " -  comentário: "+ data[i].title+  "</li>";
+
+        }
+
+    });
+
+</script>
+
+<ul id="mensagem">
+</ul>
+
+</body>
+</html>

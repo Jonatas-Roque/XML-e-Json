@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lista>
+	<carro id="1">
+		<nome>Ferrari 458</nome>
+		<ano>2017</ano>
+		<tipo>Desportivo</tipo>
+		<preço>200000€</preço>
+	</carro>
+	<carro id="2">
+		<nome>VW Golf</nome>
+		<ano>2000</ano>
+		<tipo>Familiar</tipo>
+		<preço>5000€</preço>
+	</carro>
+	<carro id="3">
+		<nome>Seat Arona</nome>
+		<ano>2020</ano>
+		<tipo>SUV</tipo>
+		<preço>16000€</preço>
+	</carro>
+</lista>

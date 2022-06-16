@@ -1,0 +1,22 @@
+{
+   "alunos":[
+      {
+         "id":1,
+         "nome":"José",
+         "sobrenome":"Soares",
+         "email":"jose.soares@gmail.pt"
+      },
+      {
+         "id":2,
+         "nome":"Jónatas",
+         "sobrenome":"Fernandes",
+         "email":"jonatas.fernandes@gmail.pt"
+      },
+      {
+         "id":3,
+         "nome":"Ana",
+         "sobrenome":"Sousa",
+         "email":"ana.sousa@gmail.pt"
+      }
+   ]
+}
